@@ -22,3 +22,165 @@ html {
         height: auto;
     }
     
+    body {
+        font-family: 'Space Grotesk', sans-serif;
+        font-family: 'Syne', sans-serif;
+    }
+
+    .header-footer-page__h {
+        color:#000000;
+        display: inline;
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: 'Space Grotesk';
+        width: 68px;
+        height: 44px;
+        padding-top: 12px;
+        opacity: 0.5;
+    }
+
+    .header-footer-page__uni {
+        color:#000000;
+        display: inline;
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: 'Space Grotesk';
+        width: 103px;
+        height: 44px;
+        padding-top: 12px;
+        opacity: 0.5;
+    }
+
+    .header-footer-page__c {
+        color:#000000;
+        display: inline;
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: 'Space Grotesk';
+        width: 87px;
+        height: 44px;
+        padding-top: 12px;
+        opacity: 0.5;
+    }
+
+    .header-footer-page__use {
+        color:#000000;
+        display: inline;
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: 'Space Grotesk';
+        width: 102px;
+        height: 44px;
+        padding-top: 12px;
+        opacity: 0.5;
+    }
+
+    .header-footer-page__p {
+        color:#000000;
+        display: inline;
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: 'Space Grotesk';
+        width: 92px;
+        height: 44px;
+        padding-top: 12px;
+        opacity: 0.5;
+    }
+
+    .header-footer-page__r {
+        color:#000000;
+        display: inline;
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: 'Space Grotesk';
+        width: 105px;
+        height: 44px;
+        padding-top: 12px;
+        opacity: 0.5;
+    }
+
+    header {
+        display: flex;
+        width: 1440px;
+        height: 76px; 
+        background: #ffffffff;
+        border-bottom: 1px solid #F8E0FB;       
+    }
+
+    .leftside-header {
+        display: flex;
+        width: 274px;
+        height: 44px;
+        gap: 8px;
+        margin-left: 70px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .rightside-heder {
+        display: flex;
+        width: 315px;
+        height: 44px;
+        gap: 8px;
+        margin-left: 260px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .header__logo{
+        margin-left: 300px;
+        height: 40px;
+        width: 151px;
+        margin-top: 18px;
+    }
+
+    main{
+        display: flex;
+        width: 1440px;
+        height: 500px;
+    }
+
+    .main-ul{
+        width: 173px;
+        height: 174px;
+    }
+
+    .main-bl{
+        width: 299px;
+        height: 300px;
+    }
+
+    .main-ur{
+        width: 111px;
+        height: 112px;
+    }
+
+    .main-br{
+        width: 211px;
+        height: 211px;
+    }
+
+    .main-text {
+        width: 856px;
+        height: 356px;
+        padding-top: 80px;
+        
+    }
