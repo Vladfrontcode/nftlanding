@@ -155,32 +155,41 @@ html {
     main{
         display: flex;
         width: 1440px;
-        height: 500px;
-    }
-
-    .main-ul{
-        width: 173px;
-        height: 174px;
-    }
-
-    .main-bl{
-        width: 299px;
-        height: 300px;
-    }
-
-    .main-ur{
-        width: 111px;
-        height: 112px;
-    }
-
-    .main-br{
-        width: 211px;
-        height: 211px;
+        height: 594px;
+        background-image:
+        url("../nftlanding/images/header and title/Background shape ul.png"),url("../nftlanding/images/header and title/Background shape bl.png"),url("../nftlanding/images/header and title/Background shape ur.png"),url("../nftlanding/images/header and title/Background shape br.png");
+        background-repeat: no-repeat;
+        background-position: 53px 5px, -16px 298px, 1162px 67px, 1196px 387px;
+        
     }
 
     .main-text {
+        display: flex;
+        flex-direction: column;
         width: 856px;
         height: 356px;
         padding-top: 80px;
+        padding-left: 292px;
+        gap: 32px;        
+    } 
+
+    .main__title {
+        width: 856px;
+        height: 192px;
+        font-family: 'Syne';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 96px;
+        text-align: center;
+        color: #000000;
+        text-shadow: -5px 5px 0px #FFFFFF;
+       
+    }
+    .main__subtitle{
         
+    }
+
+    .alllogo{
+        margin-top: 40px;
     }
