@@ -152,8 +152,7 @@ html {
         margin-top: 18px;
     }
 
-    main{
-        
+    main{        
         display: flex;
         width: 1440px;
         height: 594px;
@@ -164,18 +163,19 @@ html {
         
     }
 
+    
     .main-text {
         display: flex;
         flex-direction: column;
         width: 856px;
         height: 356px;
-        padding-top: 80px;
+        padding-top: 117px;
         padding-left: 292px;
-        gap: 32px;        
+        gap: 32px;         
+            
     } 
 
-    .main__title {
-        padding-top: 60px;
+    .main__title {        
         padding-right: 48px;
         width: 856px;
         height: 192px;
@@ -190,7 +190,7 @@ html {
        
     }
     .main__subtitle{
-        padding-top: 32px;
+        margin-top: 32px;
         padding-left: 48px;
         padding-bottom: 84px;
         width: 800px;
@@ -199,10 +199,41 @@ html {
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
-        
+        line-height: 24px;        
         color: #532C59;
         
+    }
+
+    .gradient {
+        position: absolute;
+        width: 1440px;
+        height: 499px;
+        left: 0px;
+        top: 100px;        
+        background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0% , rgba(255, 255, 255, 0) 100%);
+        opacity: 0.4;
+        filter: blur(116px)
+    }
+
+    button {
+        margin-left: 380px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+        width: 114px;
+        height: 52px;
+        background: #532C59;
+        border-radius: 15px;
+        border-width: 1px;
+        font-family: 'Syne';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 52px;
+        color: #FFFFFF;
     }
 
     .alllogo{
@@ -224,7 +255,7 @@ html {
         width: 1300px;
         height: 64px;
         margin-top: 80px;
-        margin-left: 70px;
+        margin-left: 35px;
         font-family: 'Syne';
         font-style: normal;
         font-weight: 700;
@@ -286,10 +317,19 @@ html {
     .nft-item {
         display: flex;
         flex-direction: column;
+        width: 412px;
+        height: 506px;
+    }
+
+    .nft-item_long {
+        display: flex;
+        flex-direction: column;
+        width: 412px;
+        height: 548px;
     }
 
     .nft-item__title {
-        padding-top: 16px;
+        padding-top: 10px;
         display: block;
         width: 412px;
         height: 42px;
@@ -301,9 +341,23 @@ html {
         text-align: center;
         color: #000000;
     }
+    .nft-item__title_long {
+        padding-top: 10px;
+        display: block;
+        width: 412px;
+        height: 84px;
+        font-family: 'Syne';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+        color: #000000;
+    }
+
 
     .nft-item__subtitle {
-        padding-top: 12px;
+        padding-top: 20px;
         display: block;
         width: 412px;
         height: 40px;
@@ -314,4 +368,28 @@ html {
         line-height: 20px;
         text-align: center;
         color: #532C59;
+    }
+
+    .our-team {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 80px;
+        position: absolute;
+        width: 1300px;
+        height: 372px;
+    }
+
+    .team-grid {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .provide {
+        display: flex;
+        flex-direction: column;
+        padding-top: 500px;
+
     }
