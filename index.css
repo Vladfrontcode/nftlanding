@@ -25,6 +25,7 @@ html {
     body {
         font-family: 'Space Grotesk', sans-serif;
         font-family: 'Syne', sans-serif;
+        background: #FCFAFF;
     }
 
     .header-footer-page__h {
@@ -175,7 +176,8 @@ html {
             
     } 
 
-    .main__title {        
+    .main__title {    
+        padding-left: 10px;    
         padding-right: 48px;
         width: 856px;
         height: 192px;
@@ -381,15 +383,94 @@ html {
         height: 372px;
     }
 
+    .our-team__title {
+        width: 856px;
+        height: 24px;
+        font-family: 'Syne';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        margin-left: 245px;
+    }
+
+    .our-team__subtitle {
+        width: 760px;
+        height: 48px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #532C59;        
+        margin-left: 43px;
+    }
+
     .team-grid {
         display: flex;
         flex-direction: row;
+        width: 1300px;
+        height: 156px;
+        gap: 32px;
+        margin-left: 140px;
+        text-align: center;
+    }
 
+    .team-grid__avathar {
+        
+    }
+
+    .team-grid__name {
+        width: 301px;
+        height: 32px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        padding-top: 5px;
+    }
+
+    .team-grid__job{
+        width: 301px;
+        height: 20px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 12px;
     }
 
     .provide {
         display: flex;
         flex-direction: column;
-        padding-top: 500px;
+        padding-top: 600px;
+    }
 
+    .provide__title {
+        width: 634px;
+        height: 64px;
+        font-family: 'Syne';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        margin-left: 200px;
+    }
+
+    .provide__subtitle {
+        width: 690px;
+        height: 48px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #532C59;
+        padding-top: 24px;
+        margin-left: 185px;
     }
