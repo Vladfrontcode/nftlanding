@@ -522,21 +522,23 @@ html {
         color: #000000;
     }
 
-    .test-gradient {  
-        display: flex;
-        gap: 24px;           
-        
+    .test-gradient {          
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 4450px;
+        bottom: 0px;
+        width: 1500px;
+        height: 600px;
+        background: linear-gradient(180deg, rgba(252, 250, 255, 0) 0%,  #FCFAFF 88.54%);  
     } 
 
-    .testimonials {
+    .testimonials {        
         padding-top: 300px;
         display: flex;
         gap: 24px;
-        padding-left: 70px;
-        background: linear-gradient(180deg, rgba(252, 250, 255, 0) 0%, #FCFAFF 88.54%);
-        backface-visibility: visible;
-    }
-
+        padding-left: 70px;   
+    }    
     
     .tweet-head208 {
         display: flex;
@@ -640,5 +642,98 @@ html {
     }
 
     .FAQ {
-        margin-top: 300px;
+        margin-top: 200px;
+        margin-left: 70px;
+        display: flex;
+        gap: 32px;
+    }
+
+    .FAQ-head {
+        width: 412px
+    }
+    
+    .FAQ__title {
+        width: 412px;
+        height: 128px;
+        font-family: 'Syne';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+        color: #000000;
+    }
+
+    .FAQ__subtitle {
+        padding-top: 12px;
+        width: 412px;
+        height: 96px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #532C59;
+    }
+
+    .FAQ-cardsspace {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 12px;
+        width: 412px;
+        height: 100px;
+        border: 1px solid #D6BCFA;
+        border-radius: 15px;
+    }
+
+    .FAQ-cardsspace_little {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 12px;
+        width: 412px;
+        height: 74px;
+        border: 1px solid #D6BCFA;
+        border-radius: 15px;
+    }
+
+    .FAQ-cardsspace_open {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 12px;
+        width: 412px;
+        height: 146px;
+        background: #FFFFFF;
+        border: 2px solid #D6BCFA;
+        border-radius: 15px;
+
+    }
+
+    .FAQ-card {
+        display: flex;
+        width: 308px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #000000;
+        opacity: 0.8;
+    }
+
+    .FAQ-group {
+        display: flex;
+        flex-direction: column;        
+        row-gap: 24px;
+    }
+
+    .card_title {
+        
     }
