@@ -718,7 +718,36 @@ html {
 
     .FAQ-card {
         display: flex;
+        flex-direction: row;        
+    }
+
+    .FAQ-group {
+        display: flex;
+        flex-direction: column;        
+        row-gap: 24px;
+    }
+
+    .FAQ_v {
+        width: 50%;
+        height:80%;
+        padding-left: 32px;
+    }
+
+    .card__title {
         width: 308px;
+        height: 52px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #000000;
+        opacity: 0.8;
+    }
+    
+    .card__title_little {
+        width: 308px;
+        height: 26px;
         font-family: 'Space Grotesk';
         font-style: normal;
         font-weight: 500;
@@ -728,12 +757,20 @@ html {
         opacity: 0.8;
     }
 
-    .FAQ-group {
-        display: flex;
-        flex-direction: column;        
-        row-gap: 24px;
+    .card__answer {
+        width: 364px;
+        height: 60px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #532C59;
+        margin-top: -12px;
     }
 
-    .card_title {
-        
+    .FAQ_v-up {
+        width: 50%;
+        height:80%;
+        margin-left: -24px;
     }
