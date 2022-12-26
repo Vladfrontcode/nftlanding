@@ -774,3 +774,115 @@ html {
         height:80%;
         margin-left: -24px;
     }
+
+    .leadpage {
+        box-sizing: border-box;
+        display: flex;   
+        flex-direction: row;     
+        width: 1300px;
+        height: 446px;
+        left: calc(50% - 1300px/2);
+        margin-top: 80px;
+        margin-left: 70px;
+        background: #FCFAFF;
+        border: 1px solid #D6BCFA;
+        box-shadow: inset 0px 0px 50px #F8E0FA;
+        border-radius: 60px;
+    }
+
+    .leadpage__title {
+        margin-top: 107px;
+        width: 710px;
+        height: 64px;
+        font-family: 'Syne';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .leadpage__subtitle {
+        margin-top: 16px;
+        width: 710px;
+        height: 48px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #532C59;
+    }
+
+    .leadpage__button {
+        margin-top: 36px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 185px;
+        gap: 10px;
+        width: 156px;
+        height: 52px;        
+        border-radius: 15px;
+    }
+
+    .footer {
+        margin-top: 160px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 70px;        
+        width: 1300px;
+        height: 40px;
+    }
+
+    .leftside-footer {
+        display: flex;
+        gap: 24px;        
+    }
+
+    .footer_logo {
+        margin-left: 290px;
+    }
+
+    .rightside-footer {
+        display: flex;
+        gap: 24px;
+        padding-left: 340px;
+    }
+
+    .header-footer_page {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;        
+        opacity: 0.5; 
+    }
+
+    .under-footer {
+        width: 1300px;
+        height: 20px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+        opacity: 0.5;
+        margin-bottom: 40px;
+        margin-left: 70px;
+        margin-top: 40px;
+    }
+
+    hr {
+        border: 1px solid #CCD5DF;
+        margin-left: 70px;
+        margin-right: 210px;
+        margin-top: 41px;
+    }
